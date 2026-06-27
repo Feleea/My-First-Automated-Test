@@ -1,4 +1,4 @@
-# Meu Primeiro Teste Automatizado
+# My First Automated Test 
 
 Projeto de estudo de testes automatizados end-to-end utilizando **Playwright** com **TypeScript**, seguindo o padrão de arquitetura **Page Object Model (POM)**.
 

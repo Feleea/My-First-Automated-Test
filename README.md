@@ -47,13 +47,31 @@ npm install
 npx playwright install
 ```
 
-### 4. Rodar os testes
+### 4. Configurar as variáveis de ambiente
+
+Crie um arquivo `.env` na raiz do projeto com as seguintes chaves:
+
+```env
+BASE_URL=https://url-da-aplicacao.com
+LOGIN_USER=seu_usuario
+LOGIN_PASSWORD=sua_senha
+```
+
+| Variável | Descrição |
+|---|---|
+| `BASE_URL` | URL base da aplicação que será testada |
+| `LOGIN_USER` | Usuário utilizado nos testes de login |
+| `LOGIN_PASSWORD` | Senha utilizada nos testes de login |
+
+> **Atenção:** nunca versione o arquivo `.env`. Ele já está listado no `.gitignore`.
+
+### 5. Rodar os testes
 
 ```bash
 npx playwright test
 ```
 
-### 5. Ver o relatório de execução
+### 6. Ver o relatório de execução
 
 ```bash
 npx playwright show-report

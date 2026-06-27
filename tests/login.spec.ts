@@ -1,4 +1,5 @@
 // Importamos "test" e "expect" do NOSSO arquivo de fixtures
+//Login da Pag backoffice
 import { test, expect } from '../fixtures/pages.fixture';
 
 test('fazer login no sistema', async ({ loginPage, page }) => {

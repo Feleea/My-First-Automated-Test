@@ -1,4 +1,5 @@
 // Importamos "test" como "base" (o test original do Playwright)
+//Login da Pag backoffice
 import { test as base, expect } from '@playwright/test';
 
 // Importamos nosso Page Object de login
